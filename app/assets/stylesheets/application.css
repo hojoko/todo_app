@@ -1,0 +1,111 @@
+.container {
+  position: absolute;
+  /*height: 100vh;*/
+  top: 40%;
+  left:50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+h1 {
+  text-align: center;
+}
+
+.add {
+  margin: 2em 4rem;
+  text-align: center;
+}
+
+.add>a {
+  background-color: white;
+  color: black;
+  padding: 0.5em 1em;
+  transition: 0.3s;
+  border: solid;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.add>a:hover {
+  color: white;
+  background-color: black;
+  transition: 0.3s;
+}
+
+table {
+  margin-bottom: 1rem;
+}
+
+td {
+  padding: 0.5em;
+}
+
+
+
+.edit>a {
+  margin-left: 3rem;
+}
+
+.title {
+  margin: 2em 0;
+}
+
+.title>label {
+  font-weight: bold;
+}
+
+.box>input {
+  border: 0;
+  border-bottom: solid; 
+  width: 20em;
+  font-size: 20px;
+}
+
+.box>input:focus {
+  outline: none;
+}
+
+.create {
+  margin: 2em 4rem;
+  text-align: center;
+}
+
+.create>input {
+  background-color: white;
+  color: black;
+  padding: 1em;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.create>input:hover {
+  background-color: black;
+  color:white;
+  transition: 0.3s;
+}
+
+.btn>a {
+  text-decoration: none;
+  color: gray;
+  transition: 0.4s;
+}
+
+.btn>a:hover {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+.edit {
+  margin-left: 2rem;
+}
+
+.alert {
+  text-align: center;
+  font-weight: bold;
+  font-size: 120%;
+  color: red;
+  margin-top: 6rem;
+}
+

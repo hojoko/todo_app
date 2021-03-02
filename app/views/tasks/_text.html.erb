@@ -1,0 +1,9 @@
+<%= form_for(@task) do |f| %>
+<div class="text-box">
+  <div class="title"><%= f.label :title %></div>
+  <div class="box"><%= f.text_field :title %></div>
+  <span class="line"></span>
+  <div class="create"><%= f.submit %></div>
+</div>
+<% end %>
+<div class="btn"><%= link_to '戻る', tasks_path %></div>
